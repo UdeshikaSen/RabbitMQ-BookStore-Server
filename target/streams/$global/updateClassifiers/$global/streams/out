@@ -36,6 +36,17 @@
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile->master]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile->compile(*)]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile->master]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [compile->compile]
+[debug] sbt-chain: Checking cache for: dependency: org.slf4j#slf4j-api;1.7.21 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.slf4j#slf4j-api;1.7.21
+[debug] 	found org.slf4j#slf4j-api;1.7.21 in sbt-chain
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [compile->runtime(*)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [compile->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [compile->master(compile)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [compile->runtime]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [compile->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [compile->compile(*)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [compile->master]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scalap;2.12.6 [compile->compile]
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scalap;2.12.6 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scalap;2.12.6
@@ -58,6 +69,17 @@
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scala-compiler;2.12.6 [compile->compile]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scala-compiler;2.12.6 [compile->compile(*)]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scala-compiler;2.12.6 [compile->master]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [compile->compile]
+[debug] sbt-chain: Checking cache for: dependency: com.rabbitmq#amqp-client;4.0.2 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: com.rabbitmq#amqp-client;4.0.2
+[debug] 	found com.rabbitmq#amqp-client;4.0.2 in sbt-chain
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [compile->runtime(*)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [compile->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [compile->master(compile)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [compile->runtime]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [compile->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [compile->compile(*)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [compile->master]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->master(*)]
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.12;1.0.6 {compile=[master(*), compile, runtime(*), runtime, compile(*), master], runtime=[master(*), compile, runtime(*), runtime, compile(*), master], test=[master(*), compile, runtime(*), runtime, compile(*), master, master(compile)], compile-internal=[master(*), compile, runtime(*), runtime, compile(*), master], runtime-internal=[master(*), compile, runtime(*), runtime, compile(*), master], test-internal=[master(*), compile, runtime(*), runtime, compile(*), master, master(compile)], scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master]}
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.12;1.0.6
@@ -69,6 +91,21 @@
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->compile]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->compile(*)]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->master]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->default]
+[debug] sbt-chain: Checking cache for: dependency: space.spacelift#amqp-scala-client_2.12;2.0.0 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]}
+[debug] sbt-chain: module revision found in cache: space.spacelift#amqp-scala-client_2.12;2.0.0
+[debug] 	found space.spacelift#amqp-scala-client_2.12;2.0.0 in sbt-chain
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->runtime]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->master]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->runtime]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->default(compile)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->runtime]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->master]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->master]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->net.liftweb#lift-json_2.12;3.0.1 [compile->default]
 [debug] sbt-chain: Checking cache for: dependency: net.liftweb#lift-json_2.12;3.0.1 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]}
 [debug] sbt-chain: module revision found in cache: net.liftweb#lift-json_2.12;3.0.1
@@ -124,6 +161,14 @@
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile->master]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile->compile(*)]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile->master]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [compile->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [compile->runtime(*)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [compile->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [compile->master(compile)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [compile->runtime]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [compile->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [compile->compile(*)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [compile->master]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scalap;2.12.6 [compile->compile]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scalap;2.12.6 [compile->runtime(*)]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scalap;2.12.6 [compile->compile]
@@ -140,6 +185,14 @@
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scala-compiler;2.12.6 [compile->compile]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scala-compiler;2.12.6 [compile->compile(*)]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scala-compiler;2.12.6 [compile->master]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [compile->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [compile->runtime(*)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [compile->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [compile->master(compile)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [compile->runtime]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [compile->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [compile->compile(*)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [compile->master]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->master(*)]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->compile]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->runtime(*)]
@@ -148,6 +201,18 @@
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->compile]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->compile(*)]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->master]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->default]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->runtime]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->master]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->runtime]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->default(compile)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->runtime]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->master]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->master]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->net.liftweb#lift-json_2.12;3.0.1 [compile->default]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->net.liftweb#lift-json_2.12;3.0.1 [compile->runtime]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->net.liftweb#lift-json_2.12;3.0.1 [compile->compile]
@@ -193,6 +258,14 @@
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scala-library;2.12.6 [runtime->master]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scala-library;2.12.6 [runtime->compile(*)]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scala-library;2.12.6 [runtime->master]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [runtime->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [runtime->runtime(*)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [runtime->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [runtime->master(compile)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [runtime->runtime]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [runtime->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [runtime->compile(*)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [runtime->master]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scalap;2.12.6 [runtime->compile]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scalap;2.12.6 [runtime->runtime(*)]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scalap;2.12.6 [runtime->compile]
@@ -209,6 +282,14 @@
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scala-compiler;2.12.6 [runtime->compile]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scala-compiler;2.12.6 [runtime->compile(*)]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scala-compiler;2.12.6 [runtime->master]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [runtime->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [runtime->runtime(*)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [runtime->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [runtime->master(compile)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [runtime->runtime]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [runtime->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [runtime->compile(*)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [runtime->master]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->master(*)]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->compile]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->runtime(*)]
@@ -217,6 +298,18 @@
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->compile]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->compile(*)]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->master]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [runtime->default]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [runtime->runtime]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [runtime->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [runtime->master]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [runtime->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [runtime->runtime]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [runtime->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [runtime->default(compile)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [runtime->runtime]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [runtime->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [runtime->master]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [runtime->master]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->net.liftweb#lift-json_2.12;3.0.1 [runtime->default]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->net.liftweb#lift-json_2.12;3.0.1 [runtime->runtime]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->net.liftweb#lift-json_2.12;3.0.1 [runtime->compile]
@@ -266,6 +359,14 @@
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile->master]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile->compile(*)]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile->master]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [compile->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [compile->runtime(*)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [compile->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [compile->master(compile)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [compile->runtime]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [compile->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [compile->compile(*)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [compile->master]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scalap;2.12.6 [compile->compile]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scalap;2.12.6 [compile->runtime(*)]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scalap;2.12.6 [compile->compile]
@@ -282,6 +383,14 @@
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scala-compiler;2.12.6 [compile->compile]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scala-compiler;2.12.6 [compile->compile(*)]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scala-compiler;2.12.6 [compile->master]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [compile->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [compile->runtime(*)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [compile->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [compile->master(compile)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [compile->runtime]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [compile->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [compile->compile(*)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [compile->master]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->master(*)]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->compile]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->runtime(*)]
@@ -291,6 +400,18 @@
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->compile(*)]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->master]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->master(compile)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->default]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->runtime]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->master]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->runtime]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->default(compile)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->runtime]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->master]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->master]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->net.liftweb#lift-json_2.12;3.0.1 [compile->default]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->net.liftweb#lift-json_2.12;3.0.1 [compile->runtime]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->net.liftweb#lift-json_2.12;3.0.1 [compile->compile]
@@ -337,6 +458,14 @@
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scala-library;2.12.6 [runtime->master]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scala-library;2.12.6 [runtime->compile(*)]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scala-library;2.12.6 [runtime->master]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [runtime->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [runtime->runtime(*)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [runtime->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [runtime->master(compile)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [runtime->runtime]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [runtime->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [runtime->compile(*)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [runtime->master]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scalap;2.12.6 [runtime->compile]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scalap;2.12.6 [runtime->runtime(*)]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scalap;2.12.6 [runtime->compile]
@@ -353,6 +482,14 @@
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scala-compiler;2.12.6 [runtime->compile]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scala-compiler;2.12.6 [runtime->compile(*)]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scala-compiler;2.12.6 [runtime->master]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [runtime->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [runtime->runtime(*)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [runtime->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [runtime->master(compile)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [runtime->runtime]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [runtime->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [runtime->compile(*)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [runtime->master]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->master(*)]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->compile]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->runtime(*)]
@@ -361,6 +498,18 @@
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->compile]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->compile(*)]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->master]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [runtime->default]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [runtime->runtime]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [runtime->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [runtime->master]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [runtime->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [runtime->runtime]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [runtime->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [runtime->default(compile)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [runtime->runtime]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [runtime->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [runtime->master]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [runtime->master]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->net.liftweb#lift-json_2.12;3.0.1 [runtime->default]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->net.liftweb#lift-json_2.12;3.0.1 [runtime->runtime]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->net.liftweb#lift-json_2.12;3.0.1 [runtime->compile]
@@ -406,6 +555,14 @@
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scala-library;2.12.6 [test->master]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scala-library;2.12.6 [test->compile(*)]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scala-library;2.12.6 [test->master]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [test->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [test->runtime(*)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [test->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [test->master(compile)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [test->runtime]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [test->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [test->compile(*)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [test->master]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scalap;2.12.6 [test->compile]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scalap;2.12.6 [test->runtime(*)]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scalap;2.12.6 [test->compile]
@@ -448,6 +605,14 @@
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scalactic#scalactic_2.12;3.0.4 [test->compile]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scalactic#scalactic_2.12;3.0.4 [test->compile(*)]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scalactic#scalactic_2.12;3.0.4 [test->master]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [test->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [test->runtime(*)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [test->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [test->master(compile)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [test->runtime]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [test->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [test->compile(*)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [test->master]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->master(*)]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->compile]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->runtime(*)]
@@ -468,6 +633,18 @@
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test->compile]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test->compile(*)]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test->master]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [test->default]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [test->runtime]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [test->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [test->master]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [test->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [test->runtime]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [test->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [test->default(compile)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [test->runtime]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [test->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [test->master]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [test->master]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->net.liftweb#lift-json_2.12;3.0.1 [test->default]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->net.liftweb#lift-json_2.12;3.0.1 [test->runtime]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->net.liftweb#lift-json_2.12;3.0.1 [test->compile]
@@ -521,6 +698,14 @@
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile->master]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile->compile(*)]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile->master]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [compile->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [compile->runtime(*)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [compile->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [compile->master(compile)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [compile->runtime]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [compile->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [compile->compile(*)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [compile->master]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scalap;2.12.6 [compile->compile]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scalap;2.12.6 [compile->runtime(*)]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scalap;2.12.6 [compile->compile]
@@ -537,6 +722,14 @@
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scala-compiler;2.12.6 [compile->compile]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scala-compiler;2.12.6 [compile->compile(*)]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scala-compiler;2.12.6 [compile->master]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [compile->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [compile->runtime(*)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [compile->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [compile->master(compile)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [compile->runtime]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [compile->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [compile->compile(*)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [compile->master]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->master(*)]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->compile]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->runtime(*)]
@@ -545,6 +738,18 @@
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->compile]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->compile(*)]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->master]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->default]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->runtime]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->master]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->runtime]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->default(compile)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->runtime]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->master]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->master]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->net.liftweb#lift-json_2.12;3.0.1 [compile->default]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->net.liftweb#lift-json_2.12;3.0.1 [compile->runtime]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->net.liftweb#lift-json_2.12;3.0.1 [compile->compile]
@@ -592,6 +797,14 @@
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile-internal->master]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile-internal->compile(*)]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile-internal->master]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [compile-internal->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [compile-internal->runtime(*)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [compile-internal->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [compile-internal->master(compile)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [compile-internal->runtime]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [compile-internal->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [compile-internal->compile(*)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [compile-internal->master]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scalap;2.12.6 [compile-internal->compile]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scalap;2.12.6 [compile-internal->runtime(*)]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scalap;2.12.6 [compile-internal->compile]
@@ -608,6 +821,14 @@
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scala-compiler;2.12.6 [compile-internal->compile]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scala-compiler;2.12.6 [compile-internal->compile(*)]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scala-compiler;2.12.6 [compile-internal->master]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [compile-internal->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [compile-internal->runtime(*)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [compile-internal->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [compile-internal->master(compile)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [compile-internal->runtime]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [compile-internal->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [compile-internal->compile(*)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [compile-internal->master]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile-internal->master(*)]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile-internal->compile]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile-internal->runtime(*)]
@@ -616,6 +837,18 @@
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile-internal->compile]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile-internal->compile(*)]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile-internal->master]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile-internal->default]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile-internal->runtime]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile-internal->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile-internal->master]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile-internal->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile-internal->runtime]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile-internal->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile-internal->default(compile)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile-internal->runtime]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile-internal->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile-internal->master]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile-internal->master]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->net.liftweb#lift-json_2.12;3.0.1 [compile-internal->default]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->net.liftweb#lift-json_2.12;3.0.1 [compile-internal->runtime]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->net.liftweb#lift-json_2.12;3.0.1 [compile-internal->compile]
@@ -665,6 +898,14 @@
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile->master]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile->compile(*)]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile->master]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [compile->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [compile->runtime(*)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [compile->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [compile->master(compile)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [compile->runtime]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [compile->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [compile->compile(*)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [compile->master]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scalap;2.12.6 [compile->compile]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scalap;2.12.6 [compile->runtime(*)]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scalap;2.12.6 [compile->compile]
@@ -681,6 +922,14 @@
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scala-compiler;2.12.6 [compile->compile]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scala-compiler;2.12.6 [compile->compile(*)]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scala-compiler;2.12.6 [compile->master]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [compile->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [compile->runtime(*)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [compile->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [compile->master(compile)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [compile->runtime]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [compile->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [compile->compile(*)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [compile->master]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->master(*)]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->compile]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->runtime(*)]
@@ -689,6 +938,18 @@
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->compile]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->compile(*)]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->master]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->default]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->runtime]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->master]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->runtime]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->default(compile)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->runtime]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->master]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->master]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->net.liftweb#lift-json_2.12;3.0.1 [compile->default]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->net.liftweb#lift-json_2.12;3.0.1 [compile->runtime]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->net.liftweb#lift-json_2.12;3.0.1 [compile->compile]
@@ -734,6 +995,14 @@
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scala-library;2.12.6 [runtime->master]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scala-library;2.12.6 [runtime->compile(*)]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scala-library;2.12.6 [runtime->master]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [runtime->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [runtime->runtime(*)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [runtime->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [runtime->master(compile)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [runtime->runtime]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [runtime->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [runtime->compile(*)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [runtime->master]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scalap;2.12.6 [runtime->compile]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scalap;2.12.6 [runtime->runtime(*)]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scalap;2.12.6 [runtime->compile]
@@ -750,6 +1019,14 @@
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scala-compiler;2.12.6 [runtime->compile]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scala-compiler;2.12.6 [runtime->compile(*)]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scala-compiler;2.12.6 [runtime->master]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [runtime->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [runtime->runtime(*)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [runtime->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [runtime->master(compile)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [runtime->runtime]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [runtime->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [runtime->compile(*)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [runtime->master]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->master(*)]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->compile]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->runtime(*)]
@@ -758,6 +1035,18 @@
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->compile]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->compile(*)]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->master]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [runtime->default]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [runtime->runtime]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [runtime->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [runtime->master]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [runtime->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [runtime->runtime]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [runtime->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [runtime->default(compile)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [runtime->runtime]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [runtime->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [runtime->master]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [runtime->master]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->net.liftweb#lift-json_2.12;3.0.1 [runtime->default]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->net.liftweb#lift-json_2.12;3.0.1 [runtime->runtime]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->net.liftweb#lift-json_2.12;3.0.1 [runtime->compile]
@@ -804,6 +1093,14 @@
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scala-library;2.12.6 [runtime-internal->master]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scala-library;2.12.6 [runtime-internal->compile(*)]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scala-library;2.12.6 [runtime-internal->master]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [runtime-internal->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [runtime-internal->runtime(*)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [runtime-internal->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [runtime-internal->master(compile)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [runtime-internal->runtime]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [runtime-internal->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [runtime-internal->compile(*)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [runtime-internal->master]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scalap;2.12.6 [runtime-internal->compile]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scalap;2.12.6 [runtime-internal->runtime(*)]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scalap;2.12.6 [runtime-internal->compile]
@@ -820,6 +1117,14 @@
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scala-compiler;2.12.6 [runtime-internal->compile]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scala-compiler;2.12.6 [runtime-internal->compile(*)]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scala-compiler;2.12.6 [runtime-internal->master]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [runtime-internal->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [runtime-internal->runtime(*)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [runtime-internal->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [runtime-internal->master(compile)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [runtime-internal->runtime]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [runtime-internal->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [runtime-internal->compile(*)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [runtime-internal->master]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime-internal->master(*)]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime-internal->compile]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime-internal->runtime(*)]
@@ -828,6 +1133,18 @@
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime-internal->compile]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime-internal->compile(*)]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime-internal->master]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [runtime-internal->default]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [runtime-internal->runtime]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [runtime-internal->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [runtime-internal->master]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [runtime-internal->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [runtime-internal->runtime]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [runtime-internal->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [runtime-internal->default(compile)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [runtime-internal->runtime]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [runtime-internal->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [runtime-internal->master]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [runtime-internal->master]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->net.liftweb#lift-json_2.12;3.0.1 [runtime-internal->default]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->net.liftweb#lift-json_2.12;3.0.1 [runtime-internal->runtime]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->net.liftweb#lift-json_2.12;3.0.1 [runtime-internal->compile]
@@ -878,6 +1195,14 @@
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile->master]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile->compile(*)]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scala-library;2.12.6 [compile->master]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [compile->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [compile->runtime(*)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [compile->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [compile->master(compile)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [compile->runtime]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [compile->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [compile->compile(*)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [compile->master]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scalap;2.12.6 [compile->compile]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scalap;2.12.6 [compile->runtime(*)]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scalap;2.12.6 [compile->compile]
@@ -894,6 +1219,14 @@
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scala-compiler;2.12.6 [compile->compile]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scala-compiler;2.12.6 [compile->compile(*)]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scala-compiler;2.12.6 [compile->master]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [compile->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [compile->runtime(*)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [compile->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [compile->master(compile)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [compile->runtime]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [compile->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [compile->compile(*)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [compile->master]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->master(*)]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->compile]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->runtime(*)]
@@ -902,6 +1235,18 @@
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->compile]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->compile(*)]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->master]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->default]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->runtime]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->master]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->runtime]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->default(compile)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->runtime]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->master]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->master]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->net.liftweb#lift-json_2.12;3.0.1 [compile->default]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->net.liftweb#lift-json_2.12;3.0.1 [compile->runtime]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->net.liftweb#lift-json_2.12;3.0.1 [compile->compile]
@@ -947,6 +1292,14 @@
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scala-library;2.12.6 [runtime->master]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scala-library;2.12.6 [runtime->compile(*)]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scala-library;2.12.6 [runtime->master]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [runtime->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [runtime->runtime(*)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [runtime->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [runtime->master(compile)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [runtime->runtime]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [runtime->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [runtime->compile(*)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [runtime->master]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scalap;2.12.6 [runtime->compile]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scalap;2.12.6 [runtime->runtime(*)]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scalap;2.12.6 [runtime->compile]
@@ -963,6 +1316,14 @@
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scala-compiler;2.12.6 [runtime->compile]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scala-compiler;2.12.6 [runtime->compile(*)]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scala-compiler;2.12.6 [runtime->master]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [runtime->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [runtime->runtime(*)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [runtime->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [runtime->master(compile)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [runtime->runtime]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [runtime->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [runtime->compile(*)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [runtime->master]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->master(*)]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->compile]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->runtime(*)]
@@ -971,6 +1332,18 @@
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->compile]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->compile(*)]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->master]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [runtime->default]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [runtime->runtime]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [runtime->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [runtime->master]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [runtime->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [runtime->runtime]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [runtime->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [runtime->default(compile)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [runtime->runtime]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [runtime->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [runtime->master]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [runtime->master]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->net.liftweb#lift-json_2.12;3.0.1 [runtime->default]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->net.liftweb#lift-json_2.12;3.0.1 [runtime->runtime]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->net.liftweb#lift-json_2.12;3.0.1 [runtime->compile]
@@ -1016,6 +1389,14 @@
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scala-library;2.12.6 [test->master]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scala-library;2.12.6 [test->compile(*)]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scala-library;2.12.6 [test->master]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [test->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [test->runtime(*)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [test->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [test->master(compile)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [test->runtime]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [test->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [test->compile(*)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [test->master]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scalap;2.12.6 [test->compile]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scalap;2.12.6 [test->runtime(*)]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scalap;2.12.6 [test->compile]
@@ -1052,6 +1433,14 @@
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scalactic#scalactic_2.12;3.0.4 [test->compile]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scalactic#scalactic_2.12;3.0.4 [test->compile(*)]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scalactic#scalactic_2.12;3.0.4 [test->master]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [test->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [test->runtime(*)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [test->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [test->master(compile)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [test->runtime]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [test->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [test->compile(*)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [test->master]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->master(*)]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->compile]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test->runtime(*)]
@@ -1069,6 +1458,18 @@
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test->compile]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test->compile(*)]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test->master]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [test->default]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [test->runtime]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [test->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [test->master]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [test->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [test->runtime]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [test->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [test->default(compile)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [test->runtime]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [test->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [test->master]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [test->master]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->net.liftweb#lift-json_2.12;3.0.1 [test->default]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->net.liftweb#lift-json_2.12;3.0.1 [test->runtime]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->net.liftweb#lift-json_2.12;3.0.1 [test->compile]
@@ -1117,6 +1518,14 @@
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scala-library;2.12.6 [test-internal->master]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scala-library;2.12.6 [test-internal->compile(*)]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scala-library;2.12.6 [test-internal->master]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [test-internal->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [test-internal->runtime(*)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [test-internal->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [test-internal->master(compile)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [test-internal->runtime]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [test-internal->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [test-internal->compile(*)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.slf4j#slf4j-api;1.7.21 [test-internal->master]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scalap;2.12.6 [test-internal->compile]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scalap;2.12.6 [test-internal->runtime(*)]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang#scalap;2.12.6 [test-internal->compile]
@@ -1153,6 +1562,14 @@
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scalactic#scalactic_2.12;3.0.4 [test-internal->compile]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scalactic#scalactic_2.12;3.0.4 [test-internal->compile(*)]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scalactic#scalactic_2.12;3.0.4 [test-internal->master]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [test-internal->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [test-internal->runtime(*)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [test-internal->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [test-internal->master(compile)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [test-internal->runtime]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [test-internal->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [test-internal->compile(*)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->com.rabbitmq#amqp-client;4.0.2 [test-internal->master]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test-internal->master(*)]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test-internal->compile]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [test-internal->runtime(*)]
@@ -1170,6 +1587,18 @@
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test-internal->compile]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test-internal->compile(*)]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4 [test-internal->master]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [test-internal->default]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [test-internal->runtime]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [test-internal->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [test-internal->master]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [test-internal->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [test-internal->runtime]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [test-internal->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [test-internal->default(compile)]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [test-internal->runtime]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [test-internal->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [test-internal->master]
+[debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [test-internal->master]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->net.liftweb#lift-json_2.12;3.0.1 [test-internal->default]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->net.liftweb#lift-json_2.12;3.0.1 [test-internal->runtime]
 [debug] == resolving dependencies default#bookstore_rabbitmq$sources;0.1->net.liftweb#lift-json_2.12;3.0.1 [test-internal->compile]
@@ -1247,193 +1676,20 @@
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
 [debug] 	[NOT REQUIRED] com.thoughtworks.paranamer#paranamer;2.8!paranamer.jar(src)
-[debug] no default ivy user dir defined: set to /home/udeshika/.ivy2
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.6!scala-library.jar(src)
+[debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.21!slf4j-api.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scalap;2.12.6!scalap.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.6!scala-compiler.jar(src)
-[debug] no default ivy user dir defined: set to /home/udeshika/.ivy2
-[debug] no default ivy user dir defined: set to /home/udeshika/.ivy2
-[debug] 	[NOT REQUIRED] net.liftweb#lift-json_2.12;3.0.1!lift-json_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.rabbitmq#amqp-client;4.0.2!amqp-client.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.scalatest#scalatest_2.12;3.0.4!scalatest_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.6!scala-reflect.jar(src)
-[debug] no default ivy user dir defined: set to /home/udeshika/.ivy2
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4!scala-parser-combinators_2.12.jar(src)
-[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] no default ivy user dir defined: set to /home/udeshika/.ivy2
-[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] no default ivy user dir defined: set to /home/udeshika/.ivy2
+[debug] 	[NOT REQUIRED] space.spacelift#amqp-scala-client_2.12;2.0.0!amqp-scala-client_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.scalactic#scalactic_2.12;3.0.4!scalactic_2.12.jar(src)
-[debug] no default ivy user dir defined: set to /home/udeshika/.ivy2
-[debug] no default ivy user dir defined: set to /home/udeshika/.ivy2
-[debug] no default ivy user dir defined: set to /home/udeshika/.ivy2
+[debug] 	[NOT REQUIRED] net.liftweb#lift-json_2.12;3.0.1!lift-json_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.6!scala-reflect.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4!scala-parser-combinators_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.scalatest#scalatest_2.12;3.0.4!scalatest_2.12.jar(src)
 [debug] 	[NOT REQUIRED] jline#jline;2.14.6!jline.jar(src)
-[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] no default ivy user dir defined: set to /home/udeshika/.ivy2
-[debug] no default cache defined: set to /home/udeshika/.ivy2/cache
-[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] no default ivy user dir defined: set to /home/udeshika/.ivy2
-[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] no default cache defined: set to /home/udeshika/.ivy2/cache
-[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] no default cache defined: set to /home/udeshika/.ivy2/cache
-[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] no default cache defined: set to /home/udeshika/.ivy2/cache
-[debug] no default cache defined: set to /home/udeshika/.ivy2/cache
-[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] no default cache defined: set to /home/udeshika/.ivy2/cache
-[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] no default cache defined: set to /home/udeshika/.ivy2/cache
-[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] no default cache defined: set to /home/udeshika/.ivy2/cache
-[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] no default cache defined: set to /home/udeshika/.ivy2/cache
-[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] no default cache defined: set to /home/udeshika/.ivy2/cache
-[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] settings loaded (310ms)
-[debug] 	default cache: /home/udeshika/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] settings loaded (317ms)
-[debug] 	default cache: /home/udeshika/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] settings loaded (316ms)
-[debug] settings loaded (316ms)
-[debug] 	default cache: /home/udeshika/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	default cache: /home/udeshika/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] 	local [file]
-[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] settings loaded (346ms)
-[debug] 	default cache: /home/udeshika/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] settings loaded (205ms)
-[debug] 	default cache: /home/udeshika/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] no default cache defined: set to /home/udeshika/.ivy2/cache
-[debug] settings loaded (378ms)
-[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] 	default cache: /home/udeshika/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] settings loaded (341ms)
-[debug] 	default cache: /home/udeshika/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] settings loaded (336ms)
-[debug] 	default cache: /home/udeshika/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] settings loaded (225ms)
-[debug] 	default cache: /home/udeshika/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] settings loaded (375ms)
-[debug] 	default cache: /home/udeshika/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] :: resolution report :: resolve 778ms :: artifacts dl 440ms
+[debug] :: resolution report :: resolve 404ms :: artifacts dl 25ms
 [debug] 	report for default#bookstore_rabbitmq$sources;0.1 compile produced in /home/udeshika/IdeaProjects/BookStore_RabbitMQ/target/scala-2.12/resolution-cache/reports/default-bookstore_rabbitmq$sources-compile.xml
 [debug] 	report for default#bookstore_rabbitmq$sources;0.1 runtime produced in /home/udeshika/IdeaProjects/BookStore_RabbitMQ/target/scala-2.12/resolution-cache/reports/default-bookstore_rabbitmq$sources-runtime.xml
 [debug] 	report for default#bookstore_rabbitmq$sources;0.1 test produced in /home/udeshika/IdeaProjects/BookStore_RabbitMQ/target/scala-2.12/resolution-cache/reports/default-bookstore_rabbitmq$sources-test.xml
@@ -1445,4 +1701,4 @@
 [debug] 	report for default#bookstore_rabbitmq$sources;0.1 plugin produced in /home/udeshika/IdeaProjects/BookStore_RabbitMQ/target/scala-2.12/resolution-cache/reports/default-bookstore_rabbitmq$sources-plugin.xml
 [debug] 	report for default#bookstore_rabbitmq$sources;0.1 pom produced in /home/udeshika/IdeaProjects/BookStore_RabbitMQ/target/scala-2.12/resolution-cache/reports/default-bookstore_rabbitmq$sources-pom.xml
 [debug] 	report for default#bookstore_rabbitmq$sources;0.1 scala-tool produced in /home/udeshika/IdeaProjects/BookStore_RabbitMQ/target/scala-2.12/resolution-cache/reports/default-bookstore_rabbitmq$sources-scala-tool.xml
-[debug] 	resolve done (778ms resolve - 440ms download)
+[debug] 	resolve done (404ms resolve - 25ms download)

@@ -234,6 +234,35 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scalap;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scalap;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scalap;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scalap;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies default#bookstore_rabbitmq_2.12;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->default(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] sbt-chain: Checking cache for: dependency: space.spacelift#amqp-scala-client_2.12;2.0.0 {compile=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: space.spacelift#amqp-scala-client_2.12;2.0.0
+[debug] 	found space.spacelift#amqp-scala-client_2.12;2.0.0 in sbt-chain
+[debug] == resolving dependencies default#bookstore_rabbitmq_2.12;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->runtime]
+[debug] == resolving dependencies default#bookstore_rabbitmq_2.12;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->compile]
+[debug] == resolving dependencies space.spacelift#amqp-scala-client_2.12;2.0.0->com.rabbitmq#amqp-client;4.0.2 [compile->master(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] sbt-chain: Checking cache for: dependency: com.rabbitmq#amqp-client;4.0.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: com.rabbitmq#amqp-client;4.0.2
+[debug] 	found com.rabbitmq#amqp-client;4.0.2 in sbt-chain
+[debug] == resolving dependencies space.spacelift#amqp-scala-client_2.12;2.0.0->com.rabbitmq#amqp-client;4.0.2 [compile->compile(*)]
+[debug] == resolving dependencies com.rabbitmq#amqp-client;4.0.2->org.slf4j#slf4j-api;1.7.21 [compile->master(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] sbt-chain: Checking cache for: dependency: org.slf4j#slf4j-api;1.7.21 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.slf4j#slf4j-api;1.7.21
+[debug] 	found org.slf4j#slf4j-api;1.7.21 in sbt-chain
+[debug] == resolving dependencies com.rabbitmq#amqp-client;4.0.2->org.slf4j#slf4j-api;1.7.21 [compile->compile(*)]
+[debug] == resolving dependencies space.spacelift#amqp-scala-client_2.12;2.0.0->com.rabbitmq#amqp-client;4.0.2 [compile->runtime(*)]
+[debug] == resolving dependencies space.spacelift#amqp-scala-client_2.12;2.0.0->com.rabbitmq#amqp-client;4.0.2 [compile->compile]
+[debug] == resolving dependencies com.rabbitmq#amqp-client;4.0.2->org.slf4j#slf4j-api;1.7.21 [runtime->runtime(*)]
+[debug] == resolving dependencies com.rabbitmq#amqp-client;4.0.2->org.slf4j#slf4j-api;1.7.21 [runtime->compile]
+[debug] == resolving dependencies space.spacelift#amqp-scala-client_2.12;2.0.0->com.rabbitmq#amqp-client;4.0.2 [runtime->runtime(*)]
+[debug] == resolving dependencies space.spacelift#amqp-scala-client_2.12;2.0.0->com.rabbitmq#amqp-client;4.0.2 [runtime->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq_2.12;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->master]
 [debug] resolving dependencies for configuration 'runtime'
 [debug] == resolving dependencies for default#bookstore_rabbitmq_2.12;0.1 [runtime]
 [debug] == resolving dependencies for default#bookstore_rabbitmq_2.12;0.1 [compile]
@@ -451,6 +480,30 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scalap;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scalap;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scalap;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scalap;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies default#bookstore_rabbitmq_2.12;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->default(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] == resolving dependencies default#bookstore_rabbitmq_2.12;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->runtime]
+[debug] == resolving dependencies default#bookstore_rabbitmq_2.12;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->compile]
+[debug] == resolving dependencies space.spacelift#amqp-scala-client_2.12;2.0.0->com.rabbitmq#amqp-client;4.0.2 [compile->master(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] == resolving dependencies space.spacelift#amqp-scala-client_2.12;2.0.0->com.rabbitmq#amqp-client;4.0.2 [compile->compile(*)]
+[debug] == resolving dependencies com.rabbitmq#amqp-client;4.0.2->org.slf4j#slf4j-api;1.7.21 [compile->master(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] == resolving dependencies com.rabbitmq#amqp-client;4.0.2->org.slf4j#slf4j-api;1.7.21 [compile->compile(*)]
+[debug] == resolving dependencies space.spacelift#amqp-scala-client_2.12;2.0.0->com.rabbitmq#amqp-client;4.0.2 [runtime->runtime(*)]
+[debug] == resolving dependencies space.spacelift#amqp-scala-client_2.12;2.0.0->com.rabbitmq#amqp-client;4.0.2 [runtime->compile]
+[debug] == resolving dependencies com.rabbitmq#amqp-client;4.0.2->org.slf4j#slf4j-api;1.7.21 [runtime->runtime(*)]
+[debug] == resolving dependencies com.rabbitmq#amqp-client;4.0.2->org.slf4j#slf4j-api;1.7.21 [runtime->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq_2.12;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->master]
 [debug] resolving dependencies for configuration 'test'
 [debug] == resolving dependencies for default#bookstore_rabbitmq_2.12;0.1 [test]
 [debug] == resolving dependencies for default#bookstore_rabbitmq_2.12;0.1 [runtime]
@@ -683,6 +736,36 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scalap;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scalap;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scalap;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scalap;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies default#bookstore_rabbitmq_2.12;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->default(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] == resolving dependencies default#bookstore_rabbitmq_2.12;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->runtime]
+[debug] == resolving dependencies default#bookstore_rabbitmq_2.12;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->compile]
+[debug] == resolving dependencies space.spacelift#amqp-scala-client_2.12;2.0.0->com.rabbitmq#amqp-client;4.0.2 [compile->master(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] == resolving dependencies space.spacelift#amqp-scala-client_2.12;2.0.0->com.rabbitmq#amqp-client;4.0.2 [compile->compile(*)]
+[debug] == resolving dependencies com.rabbitmq#amqp-client;4.0.2->org.slf4j#slf4j-api;1.7.21 [compile->master(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] == resolving dependencies com.rabbitmq#amqp-client;4.0.2->org.slf4j#slf4j-api;1.7.21 [compile->compile(*)]
+[debug] == resolving dependencies space.spacelift#amqp-scala-client_2.12;2.0.0->com.rabbitmq#amqp-client;4.0.2 [runtime->runtime(*)]
+[debug] == resolving dependencies space.spacelift#amqp-scala-client_2.12;2.0.0->com.rabbitmq#amqp-client;4.0.2 [runtime->compile]
+[debug] == resolving dependencies com.rabbitmq#amqp-client;4.0.2->org.slf4j#slf4j-api;1.7.21 [runtime->runtime(*)]
+[debug] == resolving dependencies com.rabbitmq#amqp-client;4.0.2->org.slf4j#slf4j-api;1.7.21 [runtime->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq_2.12;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->master]
 [debug] == resolving dependencies default#bookstore_rabbitmq_2.12;0.1->org.scalatest#scalatest_2.12;3.0.4 [test->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
@@ -1136,6 +1219,42 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scalap;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scalap;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scalap;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scalap;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies default#bookstore_rabbitmq_2.12;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->default(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] == resolving dependencies default#bookstore_rabbitmq_2.12;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->runtime]
+[debug] == resolving dependencies default#bookstore_rabbitmq_2.12;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->compile]
+[debug] == resolving dependencies space.spacelift#amqp-scala-client_2.12;2.0.0->com.rabbitmq#amqp-client;4.0.2 [compile->master(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] == resolving dependencies space.spacelift#amqp-scala-client_2.12;2.0.0->com.rabbitmq#amqp-client;4.0.2 [compile->compile(*)]
+[debug] == resolving dependencies com.rabbitmq#amqp-client;4.0.2->org.slf4j#slf4j-api;1.7.21 [compile->master(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] == resolving dependencies com.rabbitmq#amqp-client;4.0.2->org.slf4j#slf4j-api;1.7.21 [compile->compile(*)]
+[debug] == resolving dependencies space.spacelift#amqp-scala-client_2.12;2.0.0->com.rabbitmq#amqp-client;4.0.2 [runtime->runtime(*)]
+[debug] == resolving dependencies space.spacelift#amqp-scala-client_2.12;2.0.0->com.rabbitmq#amqp-client;4.0.2 [runtime->compile]
+[debug] == resolving dependencies com.rabbitmq#amqp-client;4.0.2->org.slf4j#slf4j-api;1.7.21 [runtime->runtime(*)]
+[debug] == resolving dependencies com.rabbitmq#amqp-client;4.0.2->org.slf4j#slf4j-api;1.7.21 [runtime->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq_2.12;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->master]
 [debug] == resolving dependencies for default#bookstore_rabbitmq_2.12;0.1 [optional]
 [debug] == resolving dependencies for default#bookstore_rabbitmq_2.12;0.1 [provided]
 [debug] resolving dependencies for configuration 'runtime-internal'
@@ -1384,6 +1503,42 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scalap;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scalap;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scalap;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scalap;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies default#bookstore_rabbitmq_2.12;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->default(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] == resolving dependencies default#bookstore_rabbitmq_2.12;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->runtime]
+[debug] == resolving dependencies default#bookstore_rabbitmq_2.12;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->compile]
+[debug] == resolving dependencies space.spacelift#amqp-scala-client_2.12;2.0.0->com.rabbitmq#amqp-client;4.0.2 [compile->master(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] == resolving dependencies space.spacelift#amqp-scala-client_2.12;2.0.0->com.rabbitmq#amqp-client;4.0.2 [compile->compile(*)]
+[debug] == resolving dependencies com.rabbitmq#amqp-client;4.0.2->org.slf4j#slf4j-api;1.7.21 [compile->master(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] == resolving dependencies com.rabbitmq#amqp-client;4.0.2->org.slf4j#slf4j-api;1.7.21 [compile->compile(*)]
+[debug] == resolving dependencies space.spacelift#amqp-scala-client_2.12;2.0.0->com.rabbitmq#amqp-client;4.0.2 [runtime->runtime(*)]
+[debug] == resolving dependencies space.spacelift#amqp-scala-client_2.12;2.0.0->com.rabbitmq#amqp-client;4.0.2 [runtime->compile]
+[debug] == resolving dependencies com.rabbitmq#amqp-client;4.0.2->org.slf4j#slf4j-api;1.7.21 [runtime->runtime(*)]
+[debug] == resolving dependencies com.rabbitmq#amqp-client;4.0.2->org.slf4j#slf4j-api;1.7.21 [runtime->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq_2.12;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->master]
 [debug] == resolving dependencies for default#bookstore_rabbitmq_2.12;0.1 [optional]
 [debug] resolving dependencies for configuration 'test-internal'
 [debug] == resolving dependencies for default#bookstore_rabbitmq_2.12;0.1 [test-internal]
@@ -1660,6 +1815,54 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scalap;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scalap;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scalap;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scalap;2.12.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies default#bookstore_rabbitmq_2.12;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->default(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] == resolving dependencies default#bookstore_rabbitmq_2.12;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->runtime]
+[debug] == resolving dependencies default#bookstore_rabbitmq_2.12;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->compile]
+[debug] == resolving dependencies space.spacelift#amqp-scala-client_2.12;2.0.0->com.rabbitmq#amqp-client;4.0.2 [compile->master(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] == resolving dependencies space.spacelift#amqp-scala-client_2.12;2.0.0->com.rabbitmq#amqp-client;4.0.2 [compile->compile(*)]
+[debug] == resolving dependencies com.rabbitmq#amqp-client;4.0.2->org.slf4j#slf4j-api;1.7.21 [compile->master(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] == resolving dependencies com.rabbitmq#amqp-client;4.0.2->org.slf4j#slf4j-api;1.7.21 [compile->compile(*)]
+[debug] == resolving dependencies space.spacelift#amqp-scala-client_2.12;2.0.0->com.rabbitmq#amqp-client;4.0.2 [runtime->runtime(*)]
+[debug] == resolving dependencies space.spacelift#amqp-scala-client_2.12;2.0.0->com.rabbitmq#amqp-client;4.0.2 [runtime->compile]
+[debug] == resolving dependencies com.rabbitmq#amqp-client;4.0.2->org.slf4j#slf4j-api;1.7.21 [runtime->runtime(*)]
+[debug] == resolving dependencies com.rabbitmq#amqp-client;4.0.2->org.slf4j#slf4j-api;1.7.21 [runtime->compile]
+[debug] == resolving dependencies default#bookstore_rabbitmq_2.12;0.1->space.spacelift#amqp-scala-client_2.12;2.0.0 [compile->master]
 [debug] == resolving dependencies default#bookstore_rabbitmq_2.12;0.1->org.scalatest#scalatest_2.12;3.0.4 [test->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.6 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.6 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.6 {scala-tool=[default, optional(default)], compile=[default(compile)]}
@@ -2008,133 +2211,185 @@
 [debug] :: downloading artifacts ::
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.6!scala-library.jar
 [debug] no default ivy user dir defined: set to /home/udeshika/.ivy2
-[debug] 	[NOT REQUIRED] net.liftweb#lift-json_2.12;3.0.1!lift-json_2.12.jar
 [debug] 	[NOT REQUIRED] com.thoughtworks.paranamer#paranamer;2.8!paranamer.jar(bundle)
 [debug] 	[NOT REQUIRED] org.scala-lang#scalap;2.12.6!scalap.jar
+[debug] 	[NOT REQUIRED] net.liftweb#lift-json_2.12;3.0.1!lift-json_2.12.jar
+[debug] 	[NOT REQUIRED] space.spacelift#amqp-scala-client_2.12;2.0.0!amqp-scala-client_2.12.jar
+[debug] no default ivy user dir defined: set to /home/udeshika/.ivy2
+[debug] no default ivy user dir defined: set to /home/udeshika/.ivy2
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.6!scala-compiler.jar
 [debug] no default ivy user dir defined: set to /home/udeshika/.ivy2
-[debug] no default ivy user dir defined: set to /home/udeshika/.ivy2
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(bundle)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.6!scala-reflect.jar
+[debug] 	[NOT REQUIRED] com.rabbitmq#amqp-client;4.0.2!amqp-client.jar
+[debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.21!slf4j-api.jar
 [debug] 	[NOT REQUIRED] org.scalatest#scalatest_2.12;3.0.4!scalatest_2.12.jar(bundle)
 [debug] 	[NOT REQUIRED] org.scalactic#scalactic_2.12;3.0.4!scalactic_2.12.jar(bundle)
+[debug] no default ivy user dir defined: set to /home/udeshika/.ivy2
+[debug] no default ivy user dir defined: set to /home/udeshika/.ivy2
+[debug] no default ivy user dir defined: set to /home/udeshika/.ivy2
+[debug] no default ivy user dir defined: set to /home/udeshika/.ivy2
+[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] no default ivy user dir defined: set to /home/udeshika/.ivy2
+[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
 [debug] no default ivy user dir defined: set to /home/udeshika/.ivy2
 [debug] 	[NOT REQUIRED] jline#jline;2.14.6!jline.jar
 [debug] no default ivy user dir defined: set to /home/udeshika/.ivy2
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4!scala-parser-combinators_2.12.jar(bundle)
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.6!scala-reflect.jar
+[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
 [debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
 [debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
 [debug] no default ivy user dir defined: set to /home/udeshika/.ivy2
 [debug] no default ivy user dir defined: set to /home/udeshika/.ivy2
 [debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
 [debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] no default ivy user dir defined: set to /home/udeshika/.ivy2
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(bundle)
-[debug] no default ivy user dir defined: set to /home/udeshika/.ivy2
-[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] no default ivy user dir defined: set to /home/udeshika/.ivy2
-[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
 [debug] no default ivy user dir defined: set to /home/udeshika/.ivy2
 [debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
 [debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
 [debug] no default cache defined: set to /home/udeshika/.ivy2/cache
-[debug] no default cache defined: set to /home/udeshika/.ivy2/cache
-[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
 [debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
 [debug] no default cache defined: set to /home/udeshika/.ivy2/cache
 [debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
 [debug] no default cache defined: set to /home/udeshika/.ivy2/cache
 [debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
 [debug] no default cache defined: set to /home/udeshika/.ivy2/cache
+[debug] no default cache defined: set to /home/udeshika/.ivy2/cache
+[debug] no default cache defined: set to /home/udeshika/.ivy2/cache
 [debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] no default cache defined: set to /home/udeshika/.ivy2/cache
-[debug] no default cache defined: set to /home/udeshika/.ivy2/cache
-[debug] no default cache defined: set to /home/udeshika/.ivy2/cache
-[debug] no default cache defined: set to /home/udeshika/.ivy2/cache
 [debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
 [debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
 [debug] no default cache defined: set to /home/udeshika/.ivy2/cache
 [debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
 [debug] no default cache defined: set to /home/udeshika/.ivy2/cache
 [debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] no default cache defined: set to /home/udeshika/.ivy2/cache
 [debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] no default cache defined: set to /home/udeshika/.ivy2/cache
+[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] no default cache defined: set to /home/udeshika/.ivy2/cache
+[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] no default cache defined: set to /home/udeshika/.ivy2/cache
 [debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
 [debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] no default cache defined: set to /home/udeshika/.ivy2/cache
+[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
 [debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
 [debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
 [debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (148ms)
+[debug] 	default cache: /home/udeshika/.ivy2/cache
+[debug] 	default resolver: default
+[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (214ms)
+[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (113ms)
+[debug] 	default cache: /home/udeshika/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] settings loaded (231ms)
+[debug] 	default cache: /home/udeshika/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] 	default cache: /home/udeshika/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] settings loaded (176ms)
+[debug] 	default cache: /home/udeshika/.ivy2/cache
+[debug] 	default resolver: default
+[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (229ms)
+[debug] 	default cache: /home/udeshika/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] no default cache defined: set to /home/udeshika/.ivy2/cache
+[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] settings loaded (194ms)
+[debug] settings loaded (183ms)
+[debug] 	default cache: /home/udeshika/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] 	default cache: /home/udeshika/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] settings loaded (153ms)
 [debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
 [debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] settings loaded (151ms)
-[debug] 	default cache: /home/udeshika/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] settings loaded (173ms)
-[debug] 	default cache: /home/udeshika/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] settings loaded (132ms)
-[debug] 	default cache: /home/udeshika/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	main [chain] [shared, public]
-[debug] 	default [chain] [local, main]
-[debug] 	local [file]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] settings loaded (122ms)
-[debug] 	default cache: /home/udeshika/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] settings loaded (154ms)
-[debug] 	default cache: /home/udeshika/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] settings loaded (111ms)
 [debug] 	default cache: /home/udeshika/.ivy2/cache
 [debug] 	default resolver: default
 [debug] 	-- 5 resolvers:
@@ -2145,9 +2400,36 @@
 [debug] 	local [file]
 [debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
 [debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] settings loaded (144ms)
+[debug] settings loaded (204ms)
+[debug] 	default cache: /home/udeshika/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] settings loaded (193ms)
+[debug] 	default cache: /home/udeshika/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] settings loaded (211ms)
+[debug] 	default cache: /home/udeshika/.ivy2/cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
 [debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
 [debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (250ms)
 [debug] 	default cache: /home/udeshika/.ivy2/cache
 [debug] 	default resolver: default
 [debug] 	-- 5 resolvers:
@@ -2156,7 +2438,7 @@
 [debug] 	public [ibiblio]
 [debug] 	main [chain] [shared, public]
 [debug] 	local [file]
-[debug] settings loaded (158ms)
+[debug] settings loaded (169ms)
 [debug] 	default cache: /home/udeshika/.ivy2/cache
 [debug] 	default resolver: default
 [debug] 	-- 5 resolvers:
@@ -2165,35 +2447,7 @@
 [debug] 	public [ibiblio]
 [debug] 	main [chain] [shared, public]
 [debug] 	local [file]
-[debug] settings loaded (146ms)
-[debug] 	default cache: /home/udeshika/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] including url: jar:file:/home/udeshika/.sbt/boot/scala-2.12.6/org.scala-sbt/sbt/1.2.1/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] settings loaded (172ms)
-[debug] 	default cache: /home/udeshika/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] settings loaded (142ms)
-[debug] 	default cache: /home/udeshika/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] :: resolution report :: resolve 1325ms :: artifacts dl 232ms
+[debug] :: resolution report :: resolve 1144ms :: artifacts dl 310ms
 [debug] 	report for default#bookstore_rabbitmq_2.12;0.1 compile produced in /home/udeshika/IdeaProjects/BookStore_RabbitMQ/target/scala-2.12/resolution-cache/reports/default-bookstore_rabbitmq_2.12-compile.xml
 [debug] 	report for default#bookstore_rabbitmq_2.12;0.1 runtime produced in /home/udeshika/IdeaProjects/BookStore_RabbitMQ/target/scala-2.12/resolution-cache/reports/default-bookstore_rabbitmq_2.12-runtime.xml
 [debug] 	report for default#bookstore_rabbitmq_2.12;0.1 test produced in /home/udeshika/IdeaProjects/BookStore_RabbitMQ/target/scala-2.12/resolution-cache/reports/default-bookstore_rabbitmq_2.12-test.xml
@@ -2205,5 +2459,5 @@
 [debug] 	report for default#bookstore_rabbitmq_2.12;0.1 plugin produced in /home/udeshika/IdeaProjects/BookStore_RabbitMQ/target/scala-2.12/resolution-cache/reports/default-bookstore_rabbitmq_2.12-plugin.xml
 [debug] 	report for default#bookstore_rabbitmq_2.12;0.1 pom produced in /home/udeshika/IdeaProjects/BookStore_RabbitMQ/target/scala-2.12/resolution-cache/reports/default-bookstore_rabbitmq_2.12-pom.xml
 [debug] 	report for default#bookstore_rabbitmq_2.12;0.1 scala-tool produced in /home/udeshika/IdeaProjects/BookStore_RabbitMQ/target/scala-2.12/resolution-cache/reports/default-bookstore_rabbitmq_2.12-scala-tool.xml
-[debug] 	resolve done (1325ms resolve - 232ms download)
+[debug] 	resolve done (1144ms resolve - 310ms download)
 [info] Done updating.

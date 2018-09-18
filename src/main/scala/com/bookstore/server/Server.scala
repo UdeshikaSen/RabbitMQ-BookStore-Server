@@ -24,7 +24,7 @@ object Server {
 
     println("Awaiting for requests.... ")
 
-    // Callback consumer - to consume the AddBook request message published by client
+    // callback consumer - to consume the AddBook request message published by client
     val addBookConsumer = new DefaultConsumer(channel) {
       override def handleDelivery(consumerTag: String, envelope: Envelope, properties: AMQP.BasicProperties, body: Array[Byte]): Unit = {
 
@@ -40,7 +40,7 @@ object Server {
           response = "Some error occurred in adding the book to the store "
         }
 
-        // Publish a response for the AddBook request sent from the client
+        // publish a response for the AddBook request sent from the client
         val replyProperties = new AMQP.BasicProperties.Builder().correlationId(properties.getCorrelationId).build()
         // properties.getReplyTo -> call back queue where the response message is published
         channel.basicPublish("", properties.getReplyTo, replyProperties, response.getBytes("UTF-8"))
@@ -48,7 +48,7 @@ object Server {
       }
     }
 
-    // Callback consumer - to consume the GetBook request message published by client
+    // callback consumer - to consume the GetBook request message published by client
     val getBookConsumer = new DefaultConsumer(channel) {
       override def handleDelivery(consumerTag: String, envelope: Envelope, properties: AMQP.BasicProperties, body: Array[Byte]): Unit = {
         var response: String = ""
@@ -62,7 +62,7 @@ object Server {
           response = "Invalid Book Id"
         }
 
-        // Publish a response for the GetBook request sent from the client
+        // publish a response for the GetBook request sent from the client
         val replyProperties = new AMQP.BasicProperties.Builder().correlationId(properties.getCorrelationId).build()
         // properties.getReplyTo -> call back queue where the response message is published
         channel.basicPublish("", properties.getReplyTo, replyProperties, response.getBytes("UTF-8"))
@@ -70,7 +70,7 @@ object Server {
       }
     }
 
-    // Callback consumer - to consume the GetBooks request message published by client
+    // callback consumer - to consume the GetBooks request message published by client
     val getBooksConsumer = new DefaultConsumer(channel) {
       override def handleDelivery(consumerTag: String, envelope: Envelope, properties: AMQP.BasicProperties, body: Array[Byte]): Unit = {
         var response: String = ""
@@ -83,7 +83,7 @@ object Server {
           response = "Books not returned from store"
         }
 
-        // Publish a response for the GetBooks request sent from the client
+        // publish a response for the GetBooks request sent from the client
         val replyProperties = new AMQP.BasicProperties.Builder().correlationId(properties.getCorrelationId).build()
         // properties.getReplyTo -> call back queue where the response message is published
         channel.basicPublish("", properties.getReplyTo, replyProperties, response.getBytes("UTF-8"))
@@ -91,11 +91,11 @@ object Server {
       }
     }
 
-    // Consume the AddBook request
+    // consume the AddBook request
     channel.basicConsume(REQUEST_QUEUE_A, false, addBookConsumer)
-    // Consume the GetBook request
+    // consume the GetBook request
     channel.basicConsume(REQUEST_QUEUE_B, false, getBookConsumer)
-    // Consume the GetBooks request
+    // consume the GetBooks request
     channel.basicConsume(REQUEST_QUEUE_C, false, getBooksConsumer)
   }
 }

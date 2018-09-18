@@ -1,0 +1,43 @@
+[0m[[0m[31merror[0m] [0m[0m/home/udeshika/IdeaProjects/BookStore_RabbitMQ/src/main/scala/com/bookstore/server/Server.scala:3:12: object rabbitmq is not a member of package com[0m
+[0m[[0m[31merror[0m] [0m[0mimport com.rabbitmq.client.{AMQP, ConnectionFactory, DefaultConsumer, Envelope}[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/udeshika/IdeaProjects/BookStore_RabbitMQ/src/main/scala/com/bookstore/server/Server.scala:15:23: not found: type ConnectionFactory[0m
+[0m[[0m[31merror[0m] [0m[0m    val factory = new ConnectionFactory()[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/udeshika/IdeaProjects/BookStore_RabbitMQ/src/main/scala/com/bookstore/server/Server.scala:28:31: not found: type DefaultConsumer[0m
+[0m[[0m[31merror[0m] [0m[0m    val addBookConsumer = new DefaultConsumer(channel) {[0m
+[0m[[0m[31merror[0m] [0m[0m                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/udeshika/IdeaProjects/BookStore_RabbitMQ/src/main/scala/com/bookstore/server/Server.scala:29:66: not found: type Envelope[0m
+[0m[[0m[31merror[0m] [0m[0m      override def handleDelivery(consumerTag: String, envelope: Envelope, properties: AMQP.BasicProperties, body: Array[Byte]): Unit = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/udeshika/IdeaProjects/BookStore_RabbitMQ/src/main/scala/com/bookstore/server/Server.scala:29:88: not found: value AMQP[0m
+[0m[[0m[31merror[0m] [0m[0m      override def handleDelivery(consumerTag: String, envelope: Envelope, properties: AMQP.BasicProperties, body: Array[Byte]): Unit = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/udeshika/IdeaProjects/BookStore_RabbitMQ/src/main/scala/com/bookstore/server/Server.scala:44:35: not found: value AMQP[0m
+[0m[[0m[31merror[0m] [0m[0m        val replyProperties = new AMQP.BasicProperties.Builder().correlationId(properties.getCorrelationId).build()[0m
+[0m[[0m[31merror[0m] [0m[0m                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/udeshika/IdeaProjects/BookStore_RabbitMQ/src/main/scala/com/bookstore/server/Server.scala:52:31: not found: type DefaultConsumer[0m
+[0m[[0m[31merror[0m] [0m[0m    val getBookConsumer = new DefaultConsumer(channel) {[0m
+[0m[[0m[31merror[0m] [0m[0m                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/udeshika/IdeaProjects/BookStore_RabbitMQ/src/main/scala/com/bookstore/server/Server.scala:53:66: not found: type Envelope[0m
+[0m[[0m[31merror[0m] [0m[0m      override def handleDelivery(consumerTag: String, envelope: Envelope, properties: AMQP.BasicProperties, body: Array[Byte]): Unit = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/udeshika/IdeaProjects/BookStore_RabbitMQ/src/main/scala/com/bookstore/server/Server.scala:53:88: not found: value AMQP[0m
+[0m[[0m[31merror[0m] [0m[0m      override def handleDelivery(consumerTag: String, envelope: Envelope, properties: AMQP.BasicProperties, body: Array[Byte]): Unit = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/udeshika/IdeaProjects/BookStore_RabbitMQ/src/main/scala/com/bookstore/server/Server.scala:66:35: not found: value AMQP[0m
+[0m[[0m[31merror[0m] [0m[0m        val replyProperties = new AMQP.BasicProperties.Builder().correlationId(properties.getCorrelationId).build()[0m
+[0m[[0m[31merror[0m] [0m[0m                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/udeshika/IdeaProjects/BookStore_RabbitMQ/src/main/scala/com/bookstore/server/Server.scala:74:32: not found: type DefaultConsumer[0m
+[0m[[0m[31merror[0m] [0m[0m    val getBooksConsumer = new DefaultConsumer(channel) {[0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/udeshika/IdeaProjects/BookStore_RabbitMQ/src/main/scala/com/bookstore/server/Server.scala:75:66: not found: type Envelope[0m
+[0m[[0m[31merror[0m] [0m[0m      override def handleDelivery(consumerTag: String, envelope: Envelope, properties: AMQP.BasicProperties, body: Array[Byte]): Unit = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/udeshika/IdeaProjects/BookStore_RabbitMQ/src/main/scala/com/bookstore/server/Server.scala:75:88: not found: value AMQP[0m
+[0m[[0m[31merror[0m] [0m[0m      override def handleDelivery(consumerTag: String, envelope: Envelope, properties: AMQP.BasicProperties, body: Array[Byte]): Unit = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/udeshika/IdeaProjects/BookStore_RabbitMQ/src/main/scala/com/bookstore/server/Server.scala:87:35: not found: value AMQP[0m
+[0m[[0m[31merror[0m] [0m[0m        val replyProperties = new AMQP.BasicProperties.Builder().correlationId(properties.getCorrelationId).build()[0m
+[0m[[0m[31merror[0m] [0m[0m                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m14 errors found[0m
